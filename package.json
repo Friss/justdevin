@@ -1,0 +1,27 @@
+{
+  "name": "JustDevInBlog",
+  "version": "0.0.1",
+  "description": "JustDevIn Blog",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^1.8.2",
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "~1.0.1",
+    "gulp-cache": "~0.2.4",
+    "gulp-coffeeify": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-jshint": "~1.8.5",
+    "gulp-load-plugins": "~0.7.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-ruby-sass": "~0.7.1",
+    "gulp-sftp": "^0.1.4",
+    "gulp-size": "~1.1.0",
+    "gulp-util": "~3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zachary Friss",
+  "license": "ISC"
+}

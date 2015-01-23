@@ -1,0 +1,159 @@
+$white: #fff
+$orange: #ff8b38
+$grey: rgba(28,28,28,.9)
+$light-grey: rgba(32,23,19,.7)
+$light-black: rgba(0,0,0,.8)
+
+
+body
+  font-family: "Raleway", Arial, sans-serif
+
+.main-background
+  padding: 180px 0
+  position: relative
+  overflow: hidden
+
+  &.macbook
+    background: #1e1e1e url(../img/macbook.jpg) no-repeat center center fixed
+    background-size: cover
+
+  &.city
+    background: #1e1e1e url(../img/city.jpg) no-repeat center center fixed
+    background-size: cover
+
+  &.imac
+    background: #1e1e1e url(../img/imac.jpg) no-repeat center center fixed
+    background-size: cover
+
+  &.mountains
+    background: #1e1e1e url(../img/mountains.jpg) no-repeat center bottom fixed
+    background-size: cover
+
+  &.subway
+    background: #1e1e1e url(../img/subway.jpg) no-repeat center bottom fixed
+    background-size: cover
+
+
+  .overlay
+    background: $light-grey
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: 99
+
+  .main-title
+    z-index: 100
+    position: relative
+    width: 100%
+    max-width: 1080px
+    margin: 0 auto
+    padding: 0 34px
+    text-align: center
+
+    h1
+      font-size: 72px
+      line-height: 1.2em
+      text-transform: none
+      letter-spacing: 0px
+      font-weight: 100
+      font-style: normal
+      color: $white
+      margin: 0 auto .25em
+
+    p
+      font-size: 18px
+      line-height: 1.35em
+      letter-spacing: 1px
+      font-weight: 400
+      font-style: normal
+      color: $orange
+      margin: 0 auto
+
+h1,
+h2,
+h3
+  text-rendering: optimizeLegibility
+
+h2
+  font-size: 32px
+  line-height: 1.3em
+  text-transform: none
+  letter-spacing: 0px
+  font-weight: 600
+  font-style: normal
+
+h3
+  color: $orange
+  font-size: 14px
+  line-height: 1.4em
+  text-transform: uppercase
+  letter-spacing: 3px
+  font-weight: 600
+  font-style: normal
+  margin-bottom: 20px
+
+p
+  font-size: 15px
+  line-height: 1.8em
+  letter-spacing: .4px
+  font-weight: 500
+  font-style: normal
+  color: $grey
+
+.content
+  padding: 25px 0 50px
+
+  .breadcrumb
+    background: none
+    padding-left: 0
+
+.blog-post
+  padding: 25px 0 0 0
+
+a
+  color: $grey
+  transition: all 150ms ease-in
+
+  &:hover,
+  &:focus
+    color: $orange
+    text-decoration: none
+  &:focus
+    text-decoration: underline
+
+.btn-default
+  transition: all 250ms ease-in
+  text-shadow: none
+  background: none
+  box-shadow: none
+  color: $orange
+  border-color: $orange
+
+.btn-default:hover
+  background: $orange
+  border-color: $orange
+  color: $white
+
+::selection
+  background: $light-black
+  color: $white
+
+footer
+  background: rgba(28,21,19,.95)
+  font-size: 12px
+  letter-spacing: 1px
+  font-weight: 500
+  padding: 50px 0
+
+  p
+    color: rgba(255,255,255,.8)
+    margin: 0
+    padding: 0
+
+@media (max-width: 600px)
+  .main-background
+    .main-title
+      h1
+        font-size: 52px
