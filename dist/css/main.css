@@ -100,12 +100,19 @@ p {
   color: rgba(28, 28, 28, 0.9);
 }
 
+code {
+  color: #ff8b38;
+}
+
 .content {
   padding: 25px 0 50px;
 }
 .content .breadcrumb {
   background: none;
   padding-left: 0;
+}
+.content img {
+  margin-bottom: 10px;
 }
 
 .blog-post {
